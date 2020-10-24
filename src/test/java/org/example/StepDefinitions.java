@@ -85,8 +85,6 @@ public class StepDefinitions {
         addedArticleName= driver.findElement(By.xpath("//span [@id='productTitle']")).getText();
         driver.findElement(By.xpath("//input [@type='submit' and@id='add-to-cart-button']")).click();
 
-        System.out.println(addedArticleName);
-
     }
 
     @Then("Usuario Va al Carrito")
